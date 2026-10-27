@@ -1,0 +1,1443 @@
+{
+  "ok": true,
+  "complete": false,
+  "researched_at": "2026-10-27",
+  "queries": [
+    "commercial event poster typography",
+    "brand logo image generation",
+    "poster design layout"
+  ],
+  "metric_semantics": {
+    "skills_sh_installs": "ecosystem install telemetry; not ratings or correctness",
+    "skillsmp_repo_stars": "GitHub repository stars; not installs, ratings, or skill-specific quality",
+    "cross_catalog_score": "not calculated; metrics remain separate"
+  },
+  "query_runs": [
+    {
+      "query": "commercial event poster typography",
+      "skills_sh": "error",
+      "skillsmp": "ok",
+      "skills_sh_error": "skills.sh returned no parseable candidates",
+      "skillsmp_candidates": 9
+    },
+    {
+      "query": "brand logo image generation",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 19,
+      "skillsmp_candidates": 4
+    },
+    {
+      "query": "poster design layout",
+      "skills_sh": "ok",
+      "skillsmp": "ok",
+      "skills_sh_candidates": 19,
+      "skillsmp_candidates": 7
+    }
+  ],
+  "candidate_family_count": 58,
+  "candidates": [
+    {
+      "family_key": "anthropics/skills:frontend-design",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "anthropics/skills",
+        "skill_name": "frontend-design",
+        "family_key": "anthropics/skills:frontend-design",
+        "skills_sh_installs": 1000000,
+        "skills_sh_installs_display": "1M",
+        "skills_sh_url": "https://skills.sh/anthropics/skills/frontend-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openai/skills:imagegen",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "openai/skills",
+        "skill_name": "imagegen",
+        "family_key": "openai/skills:imagegen",
+        "skills_sh_installs": 5700,
+        "skills_sh_installs_display": "5.7K",
+        "skills_sh_url": "https://skills.sh/openai/skills/imagegen"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "resciencelab/opc-skills:logo-creator",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "resciencelab/opc-skills",
+        "skill_name": "logo-creator",
+        "family_key": "resciencelab/opc-skills:logo-creator",
+        "skills_sh_installs": 3200,
+        "skills_sh_installs_display": "3.2K",
+        "skills_sh_url": "https://skills.sh/resciencelab/opc-skills/logo-creator"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "suzheng/k2f:k2f-flyer",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "suzheng/k2f",
+        "skill_name": "k2f-flyer",
+        "family_key": "suzheng/k2f:k2f-flyer",
+        "skills_sh_installs": 2700,
+        "skills_sh_installs_display": "2.7K",
+        "skills_sh_url": "https://skills.sh/suzheng/k2f/k2f-flyer"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "k-dense-ai/scientific-agent-skills:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "k-dense-ai/scientific-agent-skills",
+        "skill_name": "latex-posters",
+        "family_key": "k-dense-ai/scientific-agent-skills:latex-posters",
+        "skills_sh_installs": 2000,
+        "skills_sh_installs_display": "2K",
+        "skills_sh_url": "https://skills.sh/k-dense-ai/scientific-agent-skills/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "suzheng/k2f:k2f-research-poster",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "suzheng/k2f",
+        "skill_name": "k2f-research-poster",
+        "family_key": "suzheng/k2f:k2f-research-poster",
+        "skills_sh_installs": 747,
+        "skills_sh_installs_display": "747",
+        "skills_sh_url": "https://skills.sh/suzheng/k2f/k2f-research-poster"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "suzheng/k2f:k2f-event-poster",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "suzheng/k2f",
+        "skill_name": "k2f-event-poster",
+        "family_key": "suzheng/k2f:k2f-event-poster",
+        "skills_sh_installs": 624,
+        "skills_sh_installs_display": "624",
+        "skills_sh_url": "https://skills.sh/suzheng/k2f/k2f-event-poster"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "leonxlnx/imagegen-skills:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "leonxlnx/imagegen-skills",
+        "skill_name": "brandkit",
+        "family_key": "leonxlnx/imagegen-skills:brandkit",
+        "skills_sh_installs": 499,
+        "skills_sh_installs_display": "499",
+        "skills_sh_url": "https://skills.sh/leonxlnx/imagegen-skills/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tasteskill/tasteskill:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "tasteskill/tasteskill",
+        "skill_name": "brandkit",
+        "family_key": "tasteskill/tasteskill:brandkit",
+        "skills_sh_installs": 322,
+        "skills_sh_installs_display": "322",
+        "skills_sh_url": "https://skills.sh/tasteskill/tasteskill/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "rheinmir/setup:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "rheinmir/setup",
+        "skill_name": "brandkit",
+        "family_key": "rheinmir/setup:brandkit",
+        "skills_sh_installs": 241,
+        "skills_sh_installs_display": "241",
+        "skills_sh_url": "https://skills.sh/rheinmir/setup/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "canva-sdks/canva-skills:canva-design-feedback",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "canva-sdks/canva-skills",
+        "skill_name": "canva-design-feedback",
+        "family_key": "canva-sdks/canva-skills:canva-design-feedback",
+        "skills_sh_installs": 239,
+        "skills_sh_installs_display": "239",
+        "skills_sh_url": "https://skills.sh/canva-sdks/canva-skills/canva-design-feedback"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "evoscientist/evoskills:paper-figures",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "evoscientist/evoskills",
+        "skill_name": "paper-figures",
+        "family_key": "evoscientist/evoskills:paper-figures",
+        "skills_sh_installs": 119,
+        "skills_sh_installs_display": "119",
+        "skills_sh_url": "https://skills.sh/evoscientist/evoskills/paper-figures"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sanbaoai/logo-generator-skill:base-logo-generator",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "sanbaoai/logo-generator-skill",
+        "skill_name": "base-logo-generator",
+        "family_key": "sanbaoai/logo-generator-skill:base-logo-generator",
+        "skills_sh_installs": 75,
+        "skills_sh_installs_display": "75",
+        "skills_sh_url": "https://skills.sh/sanbaoai/logo-generator-skill/base-logo-generator"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "leonchaox/qinyan-academic-skills:pptx-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "leonchaox/qinyan-academic-skills",
+        "skill_name": "pptx-posters",
+        "family_key": "leonchaox/qinyan-academic-skills:pptx-posters",
+        "skills_sh_installs": 74,
+        "skills_sh_installs_display": "74",
+        "skills_sh_url": "https://skills.sh/leonchaox/qinyan-academic-skills/pptx-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "alterlab-ieu/alterlab-academic-skills:alterlab-latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "alterlab-ieu/alterlab-academic-skills",
+        "skill_name": "alterlab-latex-posters",
+        "family_key": "alterlab-ieu/alterlab-academic-skills:alterlab-latex-posters",
+        "skills_sh_installs": 70,
+        "skills_sh_installs_display": "70",
+        "skills_sh_url": "https://skills.sh/alterlab-ieu/alterlab-academic-skills/alterlab-latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "sanbaoai/logo-generator-skill:mascot-logo-generator",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "sanbaoai/logo-generator-skill",
+        "skill_name": "mascot-logo-generator",
+        "family_key": "sanbaoai/logo-generator-skill:mascot-logo-generator",
+        "skills_sh_installs": 56,
+        "skills_sh_installs_display": "56",
+        "skills_sh_url": "https://skills.sh/sanbaoai/logo-generator-skill/mascot-logo-generator"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ovachiever/droid-tings:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "ovachiever/droid-tings",
+        "skill_name": "latex-posters",
+        "family_key": "ovachiever/droid-tings:latex-posters",
+        "skills_sh_installs": 54,
+        "skills_sh_installs_display": "54",
+        "skills_sh_url": "https://skills.sh/ovachiever/droid-tings/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "crazymsn/academic-skills:pptx-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "crazymsn/academic-skills",
+        "skill_name": "pptx-posters",
+        "family_key": "crazymsn/academic-skills:pptx-posters",
+        "skills_sh_installs": 37,
+        "skills_sh_installs_display": "37",
+        "skills_sh_url": "https://skills.sh/crazymsn/academic-skills/pptx-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nxpatterns/claude-taste-skill:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "nxpatterns/claude-taste-skill",
+        "skill_name": "brandkit",
+        "family_key": "nxpatterns/claude-taste-skill:brandkit",
+        "skills_sh_installs": 37,
+        "skills_sh_installs_display": "37",
+        "skills_sh_url": "https://skills.sh/nxpatterns/claude-taste-skill/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "crazymsn/academic-skills:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "crazymsn/academic-skills",
+        "skill_name": "latex-posters",
+        "family_key": "crazymsn/academic-skills:latex-posters",
+        "skills_sh_installs": 35,
+        "skills_sh_installs_display": "35",
+        "skills_sh_url": "https://skills.sh/crazymsn/academic-skills/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "yu-369/vibecurb:brandkit-gen",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "yu-369/vibecurb",
+        "skill_name": "brandkit-gen",
+        "family_key": "yu-369/vibecurb:brandkit-gen",
+        "skills_sh_installs": 35,
+        "skills_sh_installs_display": "35",
+        "skills_sh_url": "https://skills.sh/yu-369/vibecurb/brandkit-gen"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "samhvw8/dotfiles:canvas-design",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "samhvw8/dotfiles",
+        "skill_name": "canvas-design",
+        "family_key": "samhvw8/dotfiles:canvas-design",
+        "skills_sh_installs": 34,
+        "skills_sh_installs_display": "34",
+        "skills_sh_url": "https://skills.sh/samhvw8/dotfiles/canvas-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "tyfarrago-hub/taste:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "tyfarrago-hub/taste",
+        "skill_name": "brandkit",
+        "family_key": "tyfarrago-hub/taste:brandkit",
+        "skills_sh_installs": 29,
+        "skills_sh_installs_display": "29",
+        "skills_sh_url": "https://skills.sh/tyfarrago-hub/taste/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "eturkes/claude-scientific-skills:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "eturkes/claude-scientific-skills",
+        "skill_name": "latex-posters",
+        "family_key": "eturkes/claude-scientific-skills:latex-posters",
+        "skills_sh_installs": 28,
+        "skills_sh_installs_display": "28",
+        "skills_sh_url": "https://skills.sh/eturkes/claude-scientific-skills/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "drshailesh88/integrated_content_os:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "drshailesh88/integrated_content_os",
+        "skill_name": "latex-posters",
+        "family_key": "drshailesh88/integrated_content_os:latex-posters",
+        "skills_sh_installs": 27,
+        "skills_sh_installs_display": "27",
+        "skills_sh_url": "https://skills.sh/drshailesh88/integrated_content_os/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "vanducng/skills:marketing-design",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "vanducng/skills",
+        "skill_name": "marketing-design",
+        "family_key": "vanducng/skills:marketing-design",
+        "skills_sh_installs": 27,
+        "skills_sh_installs_display": "27",
+        "skills_sh_url": "https://skills.sh/vanducng/skills/marketing-design"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "eturkes/claude-scientific-skills:pptx-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "eturkes/claude-scientific-skills",
+        "skill_name": "pptx-posters",
+        "family_key": "eturkes/claude-scientific-skills:pptx-posters",
+        "skills_sh_installs": 26,
+        "skills_sh_installs_display": "26",
+        "skills_sh_url": "https://skills.sh/eturkes/claude-scientific-skills/pptx-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "wu-yc/labclaw:pptx-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "wu-yc/labclaw",
+        "skill_name": "pptx-posters",
+        "family_key": "wu-yc/labclaw:pptx-posters",
+        "skills_sh_installs": 25,
+        "skills_sh_installs_display": "25",
+        "skills_sh_url": "https://skills.sh/wu-yc/labclaw/pptx-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "ziguishian/brand-design-skill:brand-design-skill",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "ziguishian/brand-design-skill",
+        "skill_name": "brand-design-skill",
+        "family_key": "ziguishian/brand-design-skill:brand-design-skill",
+        "skills_sh_installs": 23,
+        "skills_sh_installs_display": "23",
+        "skills_sh_url": "https://skills.sh/ziguishian/brand-design-skill/brand-design-skill"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "openai/codex:imagegen",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "openai/codex",
+        "skill_name": "imagegen",
+        "family_key": "openai/codex:imagegen",
+        "skills_sh_installs": 22,
+        "skills_sh_installs_display": "22",
+        "skills_sh_url": "https://skills.sh/openai/codex/imagegen"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "wu-yc/labclaw:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "wu-yc/labclaw",
+        "skill_name": "latex-posters",
+        "family_key": "wu-yc/labclaw:latex-posters",
+        "skills_sh_installs": 22,
+        "skills_sh_installs_display": "22",
+        "skills_sh_url": "https://skills.sh/wu-yc/labclaw/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "dragonwar000/setup:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "dragonwar000/setup",
+        "skill_name": "brandkit",
+        "family_key": "dragonwar000/setup:brandkit",
+        "skills_sh_installs": 20,
+        "skills_sh_installs_display": "20",
+        "skills_sh_url": "https://skills.sh/dragonwar000/setup/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "immamdouhaboammar/motion-graphics-skills:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "immamdouhaboammar/motion-graphics-skills",
+        "skill_name": "brandkit",
+        "family_key": "immamdouhaboammar/motion-graphics-skills:brandkit",
+        "skills_sh_installs": 20,
+        "skills_sh_installs_display": "20",
+        "skills_sh_url": "https://skills.sh/immamdouhaboammar/motion-graphics-skills/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "beita6969/scienceclaw:latex-posters",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "poster design layout",
+        "owner_repo": "beita6969/scienceclaw",
+        "skill_name": "latex-posters",
+        "family_key": "beita6969/scienceclaw:latex-posters",
+        "skills_sh_installs": 19,
+        "skills_sh_installs_display": "19",
+        "skills_sh_url": "https://skills.sh/beita6969/scienceclaw/latex-posters"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "hunger-eric/taste-skill:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "hunger-eric/taste-skill",
+        "skill_name": "brandkit",
+        "family_key": "hunger-eric/taste-skill:brandkit",
+        "skills_sh_installs": 16,
+        "skills_sh_installs_display": "16",
+        "skills_sh_url": "https://skills.sh/hunger-eric/taste-skill/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "skills-shell/superpowers:logo-design-guide",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "skills-shell/superpowers",
+        "skill_name": "logo-design-guide",
+        "family_key": "skills-shell/superpowers:logo-design-guide",
+        "skills_sh_installs": 16,
+        "skills_sh_installs_display": "16",
+        "skills_sh_url": "https://skills.sh/skills-shell/superpowers/logo-design-guide"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "echoleesong/claude-skills-plugin:brandkit",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "echoleesong/claude-skills-plugin",
+        "skill_name": "brandkit",
+        "family_key": "echoleesong/claude-skills-plugin:brandkit",
+        "skills_sh_installs": 15,
+        "skills_sh_installs_display": "15",
+        "skills_sh_url": "https://skills.sh/echoleesong/claude-skills-plugin/brandkit"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "bankai-skills/superpowers:logo-design-guide",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": {
+        "source": "skills.sh",
+        "query": "brand logo image generation",
+        "owner_repo": "bankai-skills/superpowers",
+        "skill_name": "logo-design-guide",
+        "family_key": "bankai-skills/superpowers:logo-design-guide",
+        "skills_sh_installs": 14,
+        "skills_sh_installs_display": "14",
+        "skills_sh_url": "https://skills.sh/bankai-skills/superpowers/logo-design-guide"
+      },
+      "skillsmp": null,
+      "catalogs": [
+        "skills.sh"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:article-writing",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "article-writing",
+        "author": "affaan-m",
+        "description": "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/article-writing",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-article-writing",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-06-11T12:12:21+00:00",
+        "source_key": "affaan-m/ecc:skills/article-writing",
+        "family_key": "affaan-m/ecc:article-writing",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/.cursor/skills/article-writing"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/.cursor/skills/article-writing"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/.agents/skills/article-writing"
+          }
+        ],
+        "query": "brand logo image generation"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:brand-discovery",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "brand-discovery",
+        "author": "affaan-m",
+        "description": "Run a structured, resumable multi-session brand identity interview across 8 modules (purpose, positioning, audience, personality, voice, narrative, founder tension) using laddering, 5 Whys, and projective techniques, persisting answers to disk and producing a master brandbook (90_SYNTHESIS.md). Use when creating or repositioning a brand, briefing designers or writers, or making implicit founder knowledge explicit.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/brand-discovery",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-brand-discovery",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-09-27T20:46:07+00:00",
+        "source_key": "affaan-m/ecc:skills/brand-discovery",
+        "family_key": "affaan-m/ecc:brand-discovery",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/.agents/skills/brand-discovery"
+          }
+        ],
+        "query": "brand logo image generation"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:brand-voice",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "brand-voice",
+        "author": "affaan-m",
+        "description": "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/brand-voice",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-brand-voice",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-06-11T12:12:21+00:00",
+        "source_key": "affaan-m/ecc:skills/brand-voice",
+        "family_key": "affaan-m/ecc:brand-voice",
+        "aliases": [
+          {
+            "language": "ja",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/ja-JP/skills/brand-voice"
+          },
+          {
+            "language": "zh",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/zh-CN/skills/brand-voice"
+          },
+          {
+            "language": "ja",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/ja-JP/skills/brand-voice"
+          },
+          {
+            "language": "zh",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/zh-CN/skills/brand-voice"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/.agents/skills/brand-voice"
+          }
+        ],
+        "query": "brand logo image generation"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:customs-trade-compliance",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "customs-trade-compliance",
+        "author": "affaan-m",
+        "description": "Codified customs and trade compliance expertise — HS/HTS tariff classification with GRI rules, commercial invoices and entry documentation, Incoterms 2020, FTA qualification and duty optimization (USMCA, RCEP, FTZs, drawback), denied-party screening, and penalty mitigation across US, EU, UK, and APAC jurisdictions. Use when classifying goods, preparing import/export documentation, screening restricted parties, responding to customs audits or CF-28/penalty notices, or optimizing duties.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/customs-trade-compliance",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-customs-trade-compliance",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-10-01T22:50:41+00:00",
+        "source_key": "affaan-m/ecc:skills/customs-trade-compliance",
+        "family_key": "affaan-m/ecc:customs-trade-compliance",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:energy-procurement",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "energy-procurement",
+        "author": "affaan-m",
+        "description": "Procure electricity and natural gas for commercial and industrial facilities: tariff and rate-schedule optimization, demand-charge mitigation, supplier RFPs, fixed/index/block-and-index hedging, renewable PPA and REC evaluation, and sustainability reporting. Use when procuring energy, optimizing utility tariffs, managing demand charges, evaluating PPAs, or building energy budgets and hedge strategies.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/energy-procurement",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-energy-procurement",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-10-01T22:50:41+00:00",
+        "source_key": "affaan-m/ecc:skills/energy-procurement",
+        "family_key": "affaan-m/ecc:energy-procurement",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/ja-JP/skills/energy-procurement"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/affaan-m/ECC/tree/main/docs/ja-JP/skills/energy-procurement"
+          }
+        ],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:generating-python-installer",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "generating-python-installer",
+        "author": "affaan-m",
+        "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格",
+        "content_language": "mul",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/generating-python-installer",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-generating-python-installer",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-08-12T03:58:14+00:00",
+        "source_key": "affaan-m/ecc:skills/generating-python-installer",
+        "family_key": "affaan-m/ecc:generating-python-installer",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "affaan-m/ecc:orch-add-feature",
+      "queries": [
+        "brand logo image generation"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "orch-add-feature",
+        "author": "affaan-m",
+        "description": "Orchestrate building a brand-new feature end to end — research, plan, TDD implementation, review, and gated commit — by delegating each phase to the matching ECC agent. Use when adding a capability that does not exist yet.",
+        "content_language": "en",
+        "github_url": "https://github.com/affaan-m/ECC/tree/main/skills/orch-add-feature",
+        "skillsmp_url": "https://skillsmp.com/creators/affaan-m/ecc/skills-orch-add-feature",
+        "repo_stars": 289082,
+        "catalog_updated_at": "2026-06-11T12:12:21+00:00",
+        "source_key": "affaan-m/ecc:skills/orch-add-feature",
+        "family_key": "affaan-m/ecc:orch-add-feature",
+        "aliases": [],
+        "query": "brand logo image generation"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nousresearch/hermes-agent:mono-color",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "mono-color",
+        "author": "NousResearch",
+        "description": "Generate one- or two-ink editorial print poster images.",
+        "content_language": "en",
+        "github_url": "https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/creative/mono-color",
+        "skillsmp_url": "https://skillsmp.com/creators/nousresearch/hermes-agent/optional-skills-creative-mono-color",
+        "repo_stars": 257091,
+        "catalog_updated_at": "2026-09-13T03:58:38+00:00",
+        "source_key": "nousresearch/hermes-agent:optional-skills/creative/mono-color",
+        "family_key": "nousresearch/hermes-agent:mono-color",
+        "aliases": [],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "anthropics/skills:canvas-design",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "canvas-design",
+        "author": "anthropics",
+        "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+        "content_language": "en",
+        "github_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+        "skillsmp_url": "https://skillsmp.com/creators/anthropics/skills/skills-canvas-design",
+        "repo_stars": 183754,
+        "catalog_updated_at": "2026-04-20T21:38:16+00:00",
+        "source_key": "anthropics/skills:skills/canvas-design",
+        "family_key": "anthropics/skills:canvas-design",
+        "aliases": [],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nextlevelbuilder/ui-ux-pro-max-skill:ui-styling",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "ui-styling",
+        "author": "nextlevelbuilder",
+        "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
+        "content_language": "en",
+        "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/.claude/skills/ui-styling",
+        "skillsmp_url": "https://skillsmp.com/creators/nextlevelbuilder/ui-ux-pro-max-skill/claude-skills-ui-styling",
+        "repo_stars": 140367,
+        "catalog_updated_at": "2026-09-19T00:58:38+00:00",
+        "source_key": "nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/ui-styling",
+        "family_key": "nextlevelbuilder/ui-ux-pro-max-skill:ui-styling",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/cli/assets/skills/ui-styling"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/cli/assets/skills/ui-styling"
+          }
+        ],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nexu-io/open-design:canvas-design",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "canvas-design",
+        "author": "nexu-io",
+        "description": "Create beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, illustrations, and static pieces.",
+        "content_language": "en",
+        "github_url": "https://github.com/nexu-io/open-design/tree/main/skills/canvas-design",
+        "skillsmp_url": "https://skillsmp.com/creators/nexu-io/open-design/skills-canvas-design",
+        "repo_stars": 103944,
+        "catalog_updated_at": "2026-08-18T07:09:45+00:00",
+        "source_key": "nexu-io/open-design:skills/canvas-design",
+        "family_key": "nexu-io/open-design:canvas-design",
+        "aliases": [],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nexu-io/open-design:html-ppt-zhangzara-raw-grid",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "html-ppt-zhangzara-raw-grid",
+        "author": "nexu-io",
+        "description": "A brutalist poster-series case study for a music festival — the concept, the system, and how it scaled across formats. Built as a decision-grade design craft deck for design peers, client.",
+        "content_language": "en",
+        "github_url": "https://github.com/nexu-io/open-design/tree/main/design-templates/html-ppt-zhangzara-raw-grid",
+        "skillsmp_url": "https://skillsmp.com/creators/nexu-io/open-design/design-templates-html-ppt-zhangzara-raw-grid",
+        "repo_stars": 103944,
+        "catalog_updated_at": "2026-07-10T09:41:47+00:00",
+        "source_key": "nexu-io/open-design:design-templates/html-ppt-zhangzara-raw-grid",
+        "family_key": "nexu-io/open-design:html-ppt-zhangzara-raw-grid",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/examples/html-ppt-zhangzara-raw-grid"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/examples/html-ppt-zhangzara-raw-grid"
+          }
+        ],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nexu-io/open-design:motion-frames",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "motion-frames",
+        "author": "nexu-io",
+        "description": "A single-frame motion-design composition with looping CSS animations —\nrotating type ring, animated globe, ticking timer, parallax labels.\nRenders as a hero video poster you can hand straight to HyperFrames or\nany keyframe-based exporter. Use when the brief asks for \"motion design\",\n\"animated hero\", \"loop\", \"video poster\", \"title card\", or pairs Open\nClaude Design with HyperFrames for a kinetic export.",
+        "content_language": "en",
+        "github_url": "https://github.com/nexu-io/open-design/tree/main/design-templates/motion-frames",
+        "skillsmp_url": "https://skillsmp.com/creators/nexu-io/open-design/design-templates-motion-frames",
+        "repo_stars": 103944,
+        "catalog_updated_at": "2026-07-27T14:02:48+00:00",
+        "source_key": "nexu-io/open-design:design-templates/motion-frames",
+        "family_key": "nexu-io/open-design:motion-frames",
+        "aliases": [
+          {
+            "language": "en",
+            "github_url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/examples/motion-frames"
+          },
+          {
+            "language": "en",
+            "github_url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/examples/motion-frames"
+          }
+        ],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "nexu-io/open-design:poster-hero",
+      "queries": [
+        "poster design layout"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "poster-hero",
+        "author": "nexu-io",
+        "description": "Vertical poster or Moments-style share image with strong visual impact.",
+        "content_language": "zh",
+        "github_url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/examples/poster-hero",
+        "skillsmp_url": "https://skillsmp.com/creators/nexu-io/open-design/plugins-official-examples-poster-hero",
+        "repo_stars": 103944,
+        "catalog_updated_at": "2026-08-18T07:09:45+00:00",
+        "source_key": "nexu-io/open-design:plugins/_official/examples/poster-hero",
+        "family_key": "nexu-io/open-design:poster-hero",
+        "aliases": [],
+        "query": "poster design layout"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "the-vibe-company/quivr:design-frontend-dev",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "design-frontend-dev",
+        "author": "The-Vibe-Company",
+        "description": "Clean Impeccable frontend design skill. Use when the user wants to design, redesign, critique, audit, polish, harden, optimize, adapt, clarify, colorize, animate, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, onboarding, empty states, accessibility, responsive behavior, visual hierarchy, UX copy, motion, design systems, anti-pattern detection, and AI-looking UI cleanup. This clean Companion edition is agent-only: no CLI, no hooks, no live mode, no install commands, no external commercial workflow.",
+        "content_language": "en",
+        "github_url": "https://github.com/The-Vibe-Company/quivr/tree/main/.agents/skills/design-frontend-dev",
+        "skillsmp_url": "https://skillsmp.com/creators/the-vibe-company/quivr/agents-skills-design-frontend-dev",
+        "repo_stars": 39603,
+        "catalog_updated_at": "2026-09-23T13:22:35+00:00",
+        "source_key": "the-vibe-company/quivr:.agents/skills/design-frontend-dev",
+        "family_key": "the-vibe-company/quivr:design-frontend-dev",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mukul975/anthropic-cybersecurity-skills:analyzing-threat-intelligence-feeds",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "analyzing-threat-intelligence-feeds",
+        "author": "mukul975",
+        "description": "Analyzes structured and unstructured threat intelligence feeds to extract actionable indicators, adversary tactics, and campaign context. Use when ingesting commercial or open-source CTI feeds, evaluating feed quality, normalizing data into STIX 2.1 format, or enriching existing IOCs with campaign attribution. Activates for requests involving ThreatConnect, Recorded Future, Mandiant Advantage, MISP, AlienVault OTX, or automated feed aggregation pipelines.",
+        "content_language": "en",
+        "github_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/main/skills/analyzing-threat-intelligence-feeds",
+        "skillsmp_url": "https://skillsmp.com/creators/mukul975/anthropic-cybersecurity-skills/skills-analyzing-threat-intelligence-feeds",
+        "repo_stars": 35011,
+        "catalog_updated_at": "2026-06-01T10:13:29+00:00",
+        "source_key": "mukul975/anthropic-cybersecurity-skills:skills/analyzing-threat-intelligence-feeds",
+        "family_key": "mukul975/anthropic-cybersecurity-skills:analyzing-threat-intelligence-feeds",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mukul975/anthropic-cybersecurity-skills:building-threat-intelligence-feed-integration",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "building-threat-intelligence-feed-integration",
+        "author": "mukul975",
+        "description": "Builds automated threat intelligence feed integration pipelines connecting STIX/TAXII feeds, open-source threat intel, and commercial TI platforms into SIEM and security tools for real-time IOC matching and alerting. Use when SOC teams need to operationalize threat intelligence by automating feed ingestion, normalization, scoring, and distribution to detection systems.",
+        "content_language": "en",
+        "github_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/main/skills/building-threat-intelligence-feed-integration",
+        "skillsmp_url": "https://skillsmp.com/creators/mukul975/anthropic-cybersecurity-skills/skills-building-threat-intelligence-feed-integration",
+        "repo_stars": 35011,
+        "catalog_updated_at": "2026-06-01T10:13:29+00:00",
+        "source_key": "mukul975/anthropic-cybersecurity-skills:skills/building-threat-intelligence-feed-integration",
+        "family_key": "mukul975/anthropic-cybersecurity-skills:building-threat-intelligence-feed-integration",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "mukul975/anthropic-cybersecurity-skills:collecting-threat-intelligence-with-misp",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "collecting-threat-intelligence-with-misp",
+        "author": "mukul975",
+        "description": "Deploy MISP, configure threat feeds (MISP community, freetext, TAXII, CSV), and use the PyMISP API to programmatically fetch, add, and search events and IOCs, building automated collection pipelines that aggregate indicators from community and commercial sources. Use when gathering, storing, or correlating IOCs and threat intelligence, or when scripting MISP ingestion via PyMISP.",
+        "content_language": "en",
+        "github_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/main/skills/collecting-threat-intelligence-with-misp",
+        "skillsmp_url": "https://skillsmp.com/creators/mukul975/anthropic-cybersecurity-skills/skills-collecting-threat-intelligence-with-misp",
+        "repo_stars": 35011,
+        "catalog_updated_at": "2026-08-02T16:32:13+00:00",
+        "source_key": "mukul975/anthropic-cybersecurity-skills:skills/collecting-threat-intelligence-with-misp",
+        "family_key": "mukul975/anthropic-cybersecurity-skills:collecting-threat-intelligence-with-misp",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "alirezarezvani/claude-skills:commercial-forecaster",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "commercial-forecaster",
+        "author": "alirezarezvani",
+        "description": "Use when building a quarterly bookings forecast, ARR projection, pipeline forecast, NRR projection, or commit/best-case/pipe-only board number — especially when the CRO needs to walk the board through funnel math + cohort ARR + per-stage conversion assumptions without the theatre of a single undefended number. Decomposes pipeline into commit, best-case, and pipe-only tiers; projects cohort-level NRR/GRR to surface leaky cohorts before they show up in the consolidated number; scores per-stage funnel confidence so soft-floor stages get treated differently from high-confidence ones. Every output explicitly names the conversion rate used, the data window, and the weighting choice. For Head of Commercial, RevOps, VP Sales, and CRO at quarterly forecast or board prep. NOT financial close (see finance/financial-analysis). NOT strategic CRO hiring/territory (see c-level-advisor/cro-advisor). NOT pricing (see sibling pricing-strategist).",
+        "content_language": "en",
+        "github_url": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial/skills/commercial-forecaster",
+        "skillsmp_url": "https://skillsmp.com/creators/alirezarezvani/claude-skills/commercial-skills-commercial-forecaster",
+        "repo_stars": 28723,
+        "catalog_updated_at": "2026-10-21T07:48:14+00:00",
+        "source_key": "alirezarezvani/claude-skills:commercial/skills/commercial-forecaster",
+        "family_key": "alirezarezvani/claude-skills:commercial-forecaster",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    },
+    {
+      "family_key": "alirezarezvani/claude-skills:commercial-policy",
+      "queries": [
+        "commercial event poster typography"
+      ],
+      "skills_sh": null,
+      "skillsmp": {
+        "source": "skillsmp",
+        "name": "commercial-policy",
+        "author": "alirezarezvani",
+        "description": "Use when designing or revising a company's commercial policy — the rules of engagement governing discounts off list price, approver thresholds, exception flows, and the deal framework that Deal Desk and AEs operate under. Covers discount matrix design (ARR band x term length x payment terms x strategic value), commercial policy design, exception policy, discount governance, approval thresholds, deal framework structure, and policy linting (contradictions, gaps, cliff edges, gaming surfaces). For Head of Commercial, Head of Deal Desk, VP Sales, or RevOps at the policy-design moment — NOT per-deal application (that is deal-desk) and NOT pricing model selection (that is pricing-strategist).",
+        "content_language": "en",
+        "github_url": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial/skills/commercial-policy",
+        "skillsmp_url": "https://skillsmp.com/creators/alirezarezvani/claude-skills/commercial-skills-commercial-policy",
+        "repo_stars": 28723,
+        "catalog_updated_at": "2026-10-21T07:48:14+00:00",
+        "source_key": "alirezarezvani/claude-skills:commercial/skills/commercial-policy",
+        "family_key": "alirezarezvani/claude-skills:commercial-policy",
+        "aliases": [],
+        "query": "commercial event poster typography"
+      },
+      "catalogs": [
+        "skillsmp"
+      ],
+      "requires_source_review": true
+    }
+  ],
+  "missing_evidence": [
+    "skills.sh `commercial event poster typography`: skills.sh returned no parseable candidates"
+  ],
+  "next_steps": [
+    "shortlist by job relevance and role coverage, not combined popularity",
+    "open canonical GitHub source and inspect SKILL.md before adoption",
+    "verify license, maintenance, permissions, security, duplication, and rating evidence",
+    "write keep/adapt/reject/invent synthesis before authoring"
+  ]
+}
