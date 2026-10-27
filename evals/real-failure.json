@@ -1,0 +1,12 @@
+{
+  "source": "GEO media poster first-pass generator-group1.py, case 01",
+  "observed_date": "2026-10-27",
+  "user_feedback": "GEO 和大会两个字隔的太远",
+  "original_snippets": [
+    "el('geo','left:49px;top:305px','GEO')",
+    "el('cn','right:66px;top:447px','大会')"
+  ],
+  "regression": "tests/test_poster.py::test_real_failure_ungrouped_title",
+  "fixture_scope": "Minimal isolated reproduction of the original separated absolute-position title; reduced canvas and font size, not the unchanged original poster.",
+  "fix": "Single title group; explicit optical baseline and bounded group gap; inspect actual render."
+}

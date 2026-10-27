@@ -1,0 +1,30 @@
+[
+  {
+    "repo": "suzheng/k2f",
+    "path": "skills/marketing/k2f-event-poster/SKILL.md",
+    "blob_sha": "faa9917ee3a899b7e03bfb2d3ec21a7bb3352682",
+    "url": "https://github.com/suzheng/k2f/blob/main/skills/marketing/k2f-event-poster/SKILL.md",
+    "reviewed": "2026-10-27"
+  },
+  {
+    "repo": "anthropics/skills",
+    "path": "skills/frontend-design/SKILL.md",
+    "blob_sha": "a5333457c414d20d625f307df945842c0952ecc3",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+    "reviewed": "2026-10-27"
+  },
+  {
+    "repo": "openai/skills",
+    "path": "skills/.system/imagegen/SKILL.md",
+    "blob_sha": "88195882efdedbfab56e0eb2570dd4fd6d9e8610",
+    "url": "https://github.com/openai/skills/blob/main/skills/.system/imagegen/SKILL.md",
+    "reviewed": "2026-10-27"
+  },
+  {
+    "repo": "k-dense-ai/scientific-agent-skills",
+    "path": "skills/latex-posters/SKILL.md",
+    "blob_sha": "b4e21b6ef09013a494efbeb04c2bfdc1597a74a8",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/latex-posters/SKILL.md",
+    "reviewed": "2026-10-27"
+  }
+]

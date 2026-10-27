@@ -1,0 +1,52 @@
+{
+  "name": "qiaomu-poster",
+  "version": "1.0.0",
+  "owner": "向阳乔木",
+  "updated_at": "2026-10-27",
+  "status": "active",
+  "maturity_tier": "governed",
+  "context_budget_tier": "production",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "generic"
+  ],
+  "review_cadence": "quarterly",
+  "release_gates": [
+    "package-validation",
+    "trigger-eval",
+    "rendered-regression",
+    "18-case-audit",
+    "secret-scan",
+    "feature-pr-merge",
+    "versioned-release",
+    "clean-install"
+  ],
+  "intent": {
+    "job_to_be_done": "Turn URLs, event facts and brand assets into distinct, editable commercial registration posters with verified final QR codes.",
+    "target_users": [
+      "event organizers",
+      "media partners",
+      "brand marketers",
+      "creators"
+    ],
+    "inputs": [
+      "event URL or brief",
+      "logos or portraits",
+      "registration URL",
+      "user overrides and output dimensions"
+    ],
+    "outputs": [
+      "PNG posters",
+      "editable HTML and local assets",
+      "gallery",
+      "technical audit"
+    ],
+    "exclusions": [
+      "academic research posters",
+      "website implementation",
+      "logo-only tasks",
+      "QR-only tasks"
+    ]
+  }
+}

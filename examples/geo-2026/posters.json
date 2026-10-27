@@ -1,0 +1,167 @@
+{
+  "width": 1080,
+  "height": 1620,
+  "scale": 2,
+  "title": "GEO大会",
+  "mixed_title": true,
+  "max_title_gap": 32,
+  "qr_url": "https://hui.ailingdaoli.com/",
+  "cta": "马上扫码报名",
+  "required_text": [
+    "维纳斯皇家酒店",
+    "深圳国际会展中心京基百纳店",
+    "399",
+    "2026",
+    "两日通票",
+    "实战工作坊"
+  ],
+  "forbidden_text": [
+    "中国GEO大会"
+  ],
+  "posters": [
+    {
+      "id": "01",
+      "name": "一支烟花AI社区",
+      "html": "01.html",
+      "png": "01.png",
+      "topology": "radiant-midtitle",
+      "metaphor": "烟花绽放"
+    },
+    {
+      "id": "02",
+      "name": "甲木未来派",
+      "html": "02.html",
+      "png": "02.png",
+      "topology": "portrait-cover",
+      "metaphor": "机械人物面向未来"
+    },
+    {
+      "id": "03",
+      "name": "抖音曝光率GEO",
+      "html": "03.html",
+      "png": "03.png",
+      "topology": "portrait-cover",
+      "metaphor": "人物邀请与商业封面"
+    },
+    {
+      "id": "04",
+      "name": "Ai  Folks",
+      "html": "04.html",
+      "png": "04.png",
+      "topology": "loop-midtitle",
+      "metaphor": "社群连接曲线"
+    },
+    {
+      "id": "05",
+      "name": "开心AI工具集",
+      "html": "05.html",
+      "png": "05.png",
+      "topology": "smile-serif",
+      "metaphor": "柔软笑脸"
+    },
+    {
+      "id": "06",
+      "name": "千里会",
+      "html": "06.html",
+      "png": "06.png",
+      "topology": "geometric-split",
+      "metaphor": "青橙几何交会"
+    },
+    {
+      "id": "07",
+      "name": "Yangyi",
+      "html": "07.html",
+      "png": "07.png",
+      "topology": "motion-lowtitle",
+      "metaphor": "穿越轨道的奔跑"
+    },
+    {
+      "id": "08",
+      "name": "出海去孵化器",
+      "html": "08.html",
+      "png": "08.png",
+      "topology": "wave-editorial",
+      "metaphor": "航海波面"
+    },
+    {
+      "id": "09",
+      "name": "Berryxia.AI",
+      "html": "09.html",
+      "png": "09.png",
+      "topology": "pixel-lowtitle",
+      "metaphor": "像素人物数字舞台"
+    },
+    {
+      "id": "10",
+      "name": "GAIDN",
+      "html": "10.html",
+      "png": "10.png",
+      "topology": "orbit-lowtitle",
+      "metaphor": "点阵G轨道"
+    },
+    {
+      "id": "11",
+      "name": "苍何",
+      "html": "11.html",
+      "png": "11.png",
+      "topology": "diagonal-character",
+      "metaphor": "角色越过斜面"
+    },
+    {
+      "id": "12",
+      "name": "吴熳Rosia",
+      "html": "12.html",
+      "png": "12.png",
+      "topology": "light-editorial",
+      "metaphor": "灯照亮标题"
+    },
+    {
+      "id": "13",
+      "name": "袋鼠帝",
+      "html": "13.html",
+      "png": "13.png",
+      "topology": "boxing-split",
+      "metaphor": "拳台绳索与袋鼠"
+    },
+    {
+      "id": "14",
+      "name": "小山学堂",
+      "html": "14.html",
+      "png": "14.png",
+      "topology": "book-centered",
+      "metaphor": "翻开的知识书页"
+    },
+    {
+      "id": "15",
+      "name": "歸藏",
+      "html": "15.html",
+      "png": "15.png",
+      "topology": "cat-type",
+      "metaphor": "猫咪藏在AI字形前"
+    },
+    {
+      "id": "16",
+      "name": "赛博禅心",
+      "html": "16.html",
+      "png": "16.png",
+      "topology": "orbit-mascot",
+      "metaphor": "玩偶进入赛博轨道"
+    },
+    {
+      "id": "17",
+      "name": "橘AI",
+      "html": "17.html",
+      "png": "17.png",
+      "topology": "stroke-hero",
+      "metaphor": "铅笔写入答案"
+    },
+    {
+      "id": "18",
+      "name": "TATALAB",
+      "html": "18.html",
+      "png": "18.png",
+      "topology": "glass-lowtitle",
+      "metaphor": "玻璃瓶中的蓝色流动"
+    }
+  ]
+}

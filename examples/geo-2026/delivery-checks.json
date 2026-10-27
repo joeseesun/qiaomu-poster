@@ -1,0 +1,848 @@
+[
+  {
+    "id": "01",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 58,
+        "y": 553,
+        "w": 894.4375,
+        "h": 251,
+        "right": 952.4375,
+        "bottom": 804
+      },
+      "latin": {
+        "x": 58,
+        "y": 553,
+        "w": 524.4375,
+        "h": 251,
+        "right": 582.4375,
+        "bottom": 804
+      },
+      "han": {
+        "x": 600.4375,
+        "y": 602,
+        "w": 352,
+        "h": 176,
+        "right": 952.4375,
+        "bottom": 778
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "02",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 64,
+        "y": 158,
+        "w": 869.265625,
+        "h": 330,
+        "right": 933.265625,
+        "bottom": 488
+      },
+      "latin": {
+        "x": 64,
+        "y": 158,
+        "w": 379.265625,
+        "h": 330,
+        "right": 443.265625,
+        "bottom": 488
+      },
+      "han": {
+        "x": 463.265625,
+        "y": 165,
+        "w": 470,
+        "h": 235,
+        "right": 933.265625,
+        "bottom": 400
+      },
+      "gap": 20
+    }
+  },
+  {
+    "id": "03",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 58,
+        "y": 189,
+        "w": 883.140625,
+        "h": 244,
+        "right": 941.140625,
+        "bottom": 433
+      },
+      "latin": {
+        "x": 58,
+        "y": 189,
+        "w": 509.140625,
+        "h": 244,
+        "right": 567.140625,
+        "bottom": 433
+      },
+      "han": {
+        "x": 585.140625,
+        "y": 229,
+        "w": 356,
+        "h": 178,
+        "right": 941.140625,
+        "bottom": 407
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "04",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 97,
+        "y": 625,
+        "w": 796.890625,
+        "h": 221,
+        "right": 893.890625,
+        "bottom": 846
+      },
+      "latin": {
+        "x": 97,
+        "y": 625,
+        "w": 458.890625,
+        "h": 221,
+        "right": 555.890625,
+        "bottom": 846
+      },
+      "han": {
+        "x": 573.890625,
+        "y": 661,
+        "w": 320,
+        "h": 160,
+        "right": 893.890625,
+        "bottom": 821
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "05",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 60,
+        "y": 246,
+        "w": 843.9375,
+        "h": 222,
+        "right": 903.9375,
+        "bottom": 468
+      },
+      "latin": {
+        "x": 60,
+        "y": 246,
+        "w": 493.9375,
+        "h": 222,
+        "right": 553.9375,
+        "bottom": 468
+      },
+      "han": {
+        "x": 573.9375,
+        "y": 270,
+        "w": 330,
+        "h": 165,
+        "right": 903.9375,
+        "bottom": 435
+      },
+      "gap": 20
+    }
+  },
+  {
+    "id": "06",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 58,
+        "y": 401,
+        "w": 891.890625,
+        "h": 248,
+        "right": 949.890625,
+        "bottom": 649
+      },
+      "latin": {
+        "x": 58,
+        "y": 401,
+        "w": 517.890625,
+        "h": 248,
+        "right": 575.890625,
+        "bottom": 649
+      },
+      "han": {
+        "x": 593.890625,
+        "y": 445,
+        "w": 356,
+        "h": 178,
+        "right": 949.890625,
+        "bottom": 623
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "07",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 58,
+        "y": 911,
+        "w": 626.015625,
+        "h": 164.34375,
+        "right": 684.015625,
+        "bottom": 1075.34375
+      },
+      "latin": {
+        "x": 58,
+        "y": 911,
+        "w": 354.015625,
+        "h": 164.34375,
+        "right": 412.015625,
+        "bottom": 1075.34375
+      },
+      "han": {
+        "x": 430.015625,
+        "y": 940,
+        "w": 254,
+        "h": 127,
+        "right": 684.015625,
+        "bottom": 1067
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "08",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 63,
+        "y": 278,
+        "w": 722.09375,
+        "h": 180.5,
+        "right": 785.09375,
+        "bottom": 458.5
+      },
+      "latin": {
+        "x": 63,
+        "y": 278,
+        "w": 428.09375,
+        "h": 180.5,
+        "right": 491.09375,
+        "bottom": 458.5
+      },
+      "han": {
+        "x": 509.09375,
+        "y": 300,
+        "w": 276,
+        "h": 138,
+        "right": 785.09375,
+        "bottom": 438
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "09",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 57,
+        "y": 845,
+        "w": 655.671875,
+        "h": 172.890625,
+        "right": 712.671875,
+        "bottom": 1017.890625
+      },
+      "latin": {
+        "x": 57,
+        "y": 845,
+        "w": 373.671875,
+        "h": 172.890625,
+        "right": 430.671875,
+        "bottom": 1017.890625
+      },
+      "han": {
+        "x": 448.671875,
+        "y": 877,
+        "w": 264,
+        "h": 132,
+        "right": 712.671875,
+        "bottom": 1009
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "10",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 56,
+        "y": 786,
+        "w": 649.3125,
+        "h": 171,
+        "right": 705.3125,
+        "bottom": 957
+      },
+      "latin": {
+        "x": 56,
+        "y": 786,
+        "w": 369.3125,
+        "h": 171,
+        "right": 425.3125,
+        "bottom": 957
+      },
+      "han": {
+        "x": 443.3125,
+        "y": 818,
+        "w": 262,
+        "h": 131,
+        "right": 705.3125,
+        "bottom": 949
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "11",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 55,
+        "y": 199,
+        "w": 662.046875,
+        "h": 174.796875,
+        "right": 717.046875,
+        "bottom": 373.796875
+      },
+      "latin": {
+        "x": 55,
+        "y": 199,
+        "w": 378.046875,
+        "h": 174.796875,
+        "right": 433.046875,
+        "bottom": 373.796875
+      },
+      "han": {
+        "x": 451.046875,
+        "y": 231,
+        "w": 266,
+        "h": 133,
+        "right": 717.046875,
+        "bottom": 364
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "12",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 59,
+        "y": 671,
+        "w": 724.09375,
+        "h": 180.5,
+        "right": 783.09375,
+        "bottom": 851.5
+      },
+      "latin": {
+        "x": 59,
+        "y": 671,
+        "w": 428.09375,
+        "h": 180.5,
+        "right": 487.09375,
+        "bottom": 851.5
+      },
+      "han": {
+        "x": 505.09375,
+        "y": 693,
+        "w": 278,
+        "h": 139,
+        "right": 783.09375,
+        "bottom": 832
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "13",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 54,
+        "y": 186,
+        "w": 795.515625,
+        "h": 219,
+        "right": 849.515625,
+        "bottom": 405
+      },
+      "latin": {
+        "x": 54,
+        "y": 186,
+        "w": 457.515625,
+        "h": 219,
+        "right": 511.515625,
+        "bottom": 405
+      },
+      "han": {
+        "x": 529.515625,
+        "y": 228,
+        "w": 320,
+        "h": 160,
+        "right": 849.515625,
+        "bottom": 388
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "14",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 135,
+        "y": 276,
+        "w": 711.609375,
+        "h": 188,
+        "right": 846.609375,
+        "bottom": 464
+      },
+      "latin": {
+        "x": 135,
+        "y": 276,
+        "w": 417.609375,
+        "h": 188,
+        "right": 552.609375,
+        "bottom": 464
+      },
+      "han": {
+        "x": 570.609375,
+        "y": 304,
+        "w": 276,
+        "h": 138,
+        "right": 846.609375,
+        "bottom": 442
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "15",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 56,
+        "y": 194,
+        "w": 827.71875,
+        "h": 219,
+        "right": 883.71875,
+        "bottom": 413
+      },
+      "latin": {
+        "x": 56,
+        "y": 194,
+        "w": 489.71875,
+        "h": 219,
+        "right": 545.71875,
+        "bottom": 413
+      },
+      "han": {
+        "x": 563.71875,
+        "y": 225,
+        "w": 320,
+        "h": 160,
+        "right": 883.71875,
+        "bottom": 385
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "16",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 68,
+        "y": 213,
+        "w": 768.046875,
+        "h": 211,
+        "right": 836.046875,
+        "bottom": 424
+      },
+      "latin": {
+        "x": 68,
+        "y": 213,
+        "w": 440.046875,
+        "h": 211,
+        "right": 508.046875,
+        "bottom": 424
+      },
+      "han": {
+        "x": 526.046875,
+        "y": 253,
+        "w": 310,
+        "h": 155,
+        "right": 836.046875,
+        "bottom": 408
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "17",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 53,
+        "y": 199,
+        "w": 795.515625,
+        "h": 219,
+        "right": 848.515625,
+        "bottom": 418
+      },
+      "latin": {
+        "x": 53,
+        "y": 199,
+        "w": 457.515625,
+        "h": 219,
+        "right": 510.515625,
+        "bottom": 418
+      },
+      "han": {
+        "x": 528.515625,
+        "y": 241,
+        "w": 320,
+        "h": 160,
+        "right": 848.515625,
+        "bottom": 401
+      },
+      "gap": 18
+    }
+  },
+  {
+    "id": "18",
+    "checks": {
+      "size_2160x3240": true,
+      "qr_full": true,
+      "qr_540px": true,
+      "cta_once": true,
+      "hotel": true,
+      "price": true,
+      "date": true,
+      "ticket": true,
+      "no_china_prefix": true,
+      "no_outside_text": true,
+      "all_images_loaded": true,
+      "title_group": true,
+      "title_gap": true
+    },
+    "pass": true,
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 61,
+        "y": 963,
+        "w": 795.515625,
+        "h": 219,
+        "right": 856.515625,
+        "bottom": 1182
+      },
+      "latin": {
+        "x": 61,
+        "y": 963,
+        "w": 457.515625,
+        "h": 219,
+        "right": 518.515625,
+        "bottom": 1182
+      },
+      "han": {
+        "x": 536.515625,
+        "y": 1005,
+        "w": 320,
+        "h": 160,
+        "right": 856.515625,
+        "bottom": 1165
+      },
+      "gap": 18
+    }
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "ok": true,
+  "threshold": 0.66,
+  "description_concepts": [
+    "action",
+    "context",
+    "poster"
+  ],
+  "missing_description_concepts": [],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "false_positive": 0,
+    "false_negative": 0,
+    "pass_rate": 1.0
+  },
+  "failures": [],
+  "results": {
+    "should_trigger": [
+      {
+        "prompt": "用这个网址设计活动报名海报",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "给每家媒体做一张宣传海报，融入logo",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "修改这张海报的标题字距和头像融合",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "根据课程信息生成招生海报",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "Create commercial event posters from this URL and logo",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "Design a launch poster with ticket price and registration code",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "重排宣传海报，保留时间地点和二维码",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "做一张展览海报",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": null
+      }
+    ],
+    "should_not_trigger": [
+      {
+        "prompt": "只生成二维码",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": "只生成二维码"
+      },
+      {
+        "prompt": "只设计logo",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": "只设计logo"
+      },
+      {
+        "prompt": "只做网页",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": "只做网页"
+      },
+      {
+        "prompt": "只写文案",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "只写文案"
+      },
+      {
+        "prompt": "帮我总结这个网址",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "context"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "做一个幻灯片",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "生成一张猫咪照片",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "查活动天气",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "context"
+        ],
+        "negative_pattern": null
+      }
+    ],
+    "near_neighbor": [
+      {
+        "prompt": "做学术研究海报",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": "学术研究海报"
+      },
+      {
+        "prompt": "Create an academic research poster",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "poster"
+        ],
+        "negative_pattern": "academic research poster"
+      },
+      {
+        "prompt": "修复网站CSS",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "把海报里的文字翻译成英文",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "poster"
+        ],
+        "negative_pattern": null
+      }
+    ]
+  }
+}

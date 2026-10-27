@@ -1,0 +1,24 @@
+interface:
+  display_name: "乔木商业海报"
+  short_description: "从网址、活动信息和Logo制作可报名的品牌专属海报"
+  default_prompt: "Use $qiaomu-poster to read my event source, preserve facts, design a distinctive commercial poster with editable type and a verified registration QR, inspect the real render, and deliver PNG plus source."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets: [openai, claude, generic, agent-skills-compatible]
+  execution:
+    context: inline
+    shell: bash
+  trust:
+    remote_inline_execution: forbid
+    generated_public_claims: evidence-bound
+  permissions:
+    network: "Read user sources; install pinned runtime; use host image tool under existing authorization. Publish/send only when explicitly asked."
+    file_write: "Requested project outputs and isolated .deps runtime"
+    subprocess: "Local setup, QR, rendering, audit and gallery"
+    interactive: "Only missing critical facts or credentials that truly block work"
+
+gates:
+  source: "Required facts sourced or supplied; no invented price, date or partnership"
+  visual: "Inspect full render, phone view, type and subject edges; repeat after fixes"
+  technical: "Zero audit issues, exact QR destination at two sizes, fresh output"
+  delivery: "PNG, editable sources, gallery and evidence limits"

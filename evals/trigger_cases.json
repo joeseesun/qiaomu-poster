@@ -1,0 +1,69 @@
+{
+  "recommended_threshold": 0.66,
+  "description_required_concepts": [
+    "poster",
+    "action"
+  ],
+  "positive_concepts": {
+    "poster": [
+      "海报",
+      "poster",
+      "posters",
+      "邀请海报"
+    ],
+    "action": [
+      "设计",
+      "做",
+      "生成",
+      "修改",
+      "重排",
+      "create",
+      "refine",
+      "design"
+    ],
+    "context": [
+      "报名",
+      "宣传",
+      "活动",
+      "logo",
+      "网址",
+      "event",
+      "brand",
+      "commercial"
+    ]
+  },
+  "negative_patterns": [
+    "学术研究海报",
+    "只生成二维码",
+    "只设计logo",
+    "只做网页",
+    "只写文案",
+    "academic research poster"
+  ],
+  "should_trigger": [
+    "用这个网址设计活动报名海报",
+    "给每家媒体做一张宣传海报，融入logo",
+    "修改这张海报的标题字距和头像融合",
+    "根据课程信息生成招生海报",
+    "Create commercial event posters from this URL and logo",
+    "Design a launch poster with ticket price and registration code",
+    "重排宣传海报，保留时间地点和二维码",
+    "做一张展览海报"
+  ],
+  "should_not_trigger": [
+    "只生成二维码",
+    "只设计logo",
+    "只做网页",
+    "只写文案",
+    "帮我总结这个网址",
+    "做一个幻灯片",
+    "生成一张猫咪照片",
+    "查活动天气"
+  ],
+  "near_neighbor": [
+    "做学术研究海报",
+    "Create an academic research poster",
+    "修复网站CSS",
+    "把海报里的文字翻译成英文"
+  ]
+}
