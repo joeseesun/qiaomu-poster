@@ -8,6 +8,16 @@
 
 [查看全部 18 张高清案例](examples/README.md) · [设计方法](references/design-method.md) · [生图工作流](references/image-workflow.md) · [验收报告](examples/geo-2026/audit-report.json)
 
+## 新增三张品牌案例
+
+黑白汇聚、WaytoAGI 彩虹与 YouMind 纸带，三种独立构图。
+
+![三张品牌海报](examples/geo-three-brands/overview.png)
+
+[黑白汇聚高清图](examples/geo-three-brands/01.png) · [WaytoAGI 高清图](examples/geo-three-brands/02.png) · [YouMind 高清图](examples/geo-three-brands/03.png) · [下载三张高清图与源文件](examples/geo-three-brands/three-brand-posters-and-source.zip)
+
+原18张案例保留，本次新增3张，共21张。新增案例的全尺寸/手机缩图二维码、必需文案、标题分组和文字边界均通过检查。[新增案例说明](examples/geo-three-brands/README.md)
+
 ## 一行安装
 
 ```bash
@@ -114,7 +124,7 @@ POSTER_BROWSER_EXECUTABLE='/Applications/Google Chrome.app/Contents/MacOS/Google
 
 ## English
 
-Qiaomu Poster creates commercial event and registration posters from URLs, briefs and brand assets. It combines a brand-led visual concept, host-native image generation/editing, editable HTML typography and deterministic QR generation. It includes 18 real examples and a browser-rendered regression suite. Automated checks establish technical correctness, not aesthetic quality or conversion lift.
+Qiaomu Poster creates commercial event and registration posters from URLs, briefs and brand assets. It combines a brand-led visual concept, host-native image generation/editing, editable HTML typography and deterministic QR generation. It includes 21 real examples and a browser-rendered regression suite. Automated checks establish technical correctness, not aesthetic quality or conversion lift.
 
 ## 方法来源与许可
 
