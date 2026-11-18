@@ -1,0 +1,50 @@
+[
+  {
+    "text": "第二届 · 2026\n深圳 · 邀你参加\nGEO\n大会\n让品牌\n被 AI 看见。\n生成式引擎优化 · 品牌增长实战\n2026.11.21—22\n深圳 · 两天大会\n维纳斯皇家酒店\n深圳国际会展中心京基百纳店\n两日通票 · 含实战工作坊\n¥399/人\n品牌增长 · 海外获客 · Agent 实操\n马上扫码报名",
+    "outside": [],
+    "images": [
+      {
+        "src": "assets/avatar-original.png",
+        "loaded": true
+      },
+      {
+        "src": "assets/registration-qr.png",
+        "loaded": true
+      }
+    ],
+    "title": {
+      "text": "GEO\n大会",
+      "group": {
+        "x": 62,
+        "y": 176,
+        "w": 795.4375,
+        "h": 222,
+        "right": 857.4375,
+        "bottom": 398
+      },
+      "latin": {
+        "x": 62,
+        "y": 176,
+        "w": 457.4375,
+        "h": 222,
+        "right": 519.4375,
+        "bottom": 398
+      },
+      "han": {
+        "x": 537.4375,
+        "y": 205,
+        "w": 320,
+        "h": 164,
+        "right": 857.4375,
+        "bottom": 369
+      },
+      "gap": 18
+    },
+    "id": "avatar",
+    "html_sha256": "bb34416d9dad4d2ad6404bfa014769367fd856fed42b1d6c6779861fef2efdc3",
+    "png_sha256": "d147298ad7ee5a8ef153cd30629d3909b366c710bec72fa6e3d9cc8fca31cd8d",
+    "width": 1080,
+    "height": 1620,
+    "scale": 2
+  }
+]

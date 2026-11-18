@@ -1,8 +1,8 @@
 {
   "name": "qiaomu-poster",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "owner": "向阳乔木",
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-11-18",
   "status": "active",
   "maturity_tier": "governed",
   "context_budget_tier": "production",
@@ -20,10 +20,11 @@
     "secret-scan",
     "feature-pr-merge",
     "versioned-release",
-    "clean-install"
+    "clean-install",
+    "avatar-preset-regression"
   ],
   "intent": {
-    "job_to_be_done": "Turn URLs, event facts and brand assets into distinct, editable commercial registration posters with verified final QR codes.",
+    "job_to_be_done": "One avatar to a personalized GEO conference poster using a date-aware event preset, plus the existing general URL/info/logo workflow.",
     "target_users": [
       "event organizers",
       "media partners",
@@ -31,6 +32,7 @@
       "creators"
     ],
     "inputs": [
+      "avatar alone for the configured GEO conference",
       "event URL or brief",
       "logos or portraits",
       "registration URL",

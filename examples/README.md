@@ -24,3 +24,7 @@
 | YouMind | [PNG](geo-three-brands/03.png) | [HTML](geo-three-brands/03.html) | 原标志署名，纸带衍生视觉与衬线字体 |
 
 [全部打包下载](geo-three-brands/three-brand-posters-and-source.zip) · [三张技术验收](geo-three-brands/audit-report.json)。第三方素材权利边界与原案例相同。
+
+## v1.1 头像入口
+
+[一张头像到精排海报](avatar-workflow/README.md)：原素材保留、脚本初稿、agent 精排及双尺寸 QR 检查。本次为已有公开素材的流程验收；未重新生成人物。

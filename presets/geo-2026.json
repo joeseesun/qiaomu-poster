@@ -1,0 +1,24 @@
+{
+  "id": "geo-2026-shenzhen",
+  "title": "GEO大会",
+  "edition": "第二届 · 2026",
+  "start_date": "2026-11-21",
+  "end_date": "2026-11-22",
+  "timezone": "Asia/Shanghai",
+  "date_label": "2026.11.21—22",
+  "city": "深圳",
+  "hotel": "维纳斯皇家酒店",
+  "hotel_branch": "深圳国际会展中心京基百纳店",
+  "price": "399",
+  "ticket": "两日通票 · 含实战工作坊",
+  "registration_url": "https://hui.ailingdaoli.com/",
+  "source_url": "https://hui.ailingdaoli.com/",
+  "source_checked_at": "2026-11-18",
+  "cta": "马上扫码报名",
+  "source_notes": {
+    "date_price": "官网 2026-11-18 回读：11月21–22日，通票¥399。每次新制作仍须回读。",
+    "hotel": "本会话用户明确指定，覆盖官网的酒店报名后群内通知；不宣称官网已公开此地址。",
+    "title_qr": "用户要求去掉中国，报名网址使用大会首页。",
+    "registration_status": "不得依据本快照承诺仍有名额，不添加倒计时或余票。"
+  }
+}

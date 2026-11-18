@@ -1,0 +1,30 @@
+{
+  "width": 1080,
+  "height": 1620,
+  "scale": 2,
+  "title": "GEO大会",
+  "mixed_title": true,
+  "max_title_gap": 32,
+  "qr_url": "https://hui.ailingdaoli.com/",
+  "cta": "马上扫码报名",
+  "required_text": [
+    "2026.11.21—22",
+    "维纳斯皇家酒店",
+    "深圳国际会展中心京基百纳店",
+    "399",
+    "两日通票 · 含实战工作坊"
+  ],
+  "forbidden_text": [
+    "中国GEO大会"
+  ],
+  "posters": [
+    {
+      "id": "avatar",
+      "name": "GEO大会 · 个性海报",
+      "html": "poster.html",
+      "png": "poster.png",
+      "topology": "editorial-character-crosses-footer",
+      "metaphor": "角色从邀请文字旁进入会议信息区，暖纸底与原画质感延续"
+    }
+  ]
+}

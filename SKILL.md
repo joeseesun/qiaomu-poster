@@ -1,15 +1,29 @@
 ---
 name: qiaomu-poster
 description: |
-  根据网址、活动信息、报名链接和 logo，设计、生成、修改商业宣传海报、活动报名海报、媒体联名邀请海报；支持逐品牌独立构图的批量海报。Create or refine commercial event posters from a URL, brief and brand assets, with considered Chinese/Latin typography, AI-generated visual assets, deterministic QR codes and final-image verification. Use for conference, workshop, launch, exhibition and registration promotion. Excludes academic research posters, slide decks, website implementation, logo creation alone, generic image generation and QR generation alone.
+  只输入头像即可生成 GEO 大会个性化邀请海报；也支持根据网址、活动信息、报名链接和 logo，设计、生成、修改商业宣传海报、活动报名海报、媒体联名邀请海报；支持逐品牌独立构图的批量海报。Create or refine commercial event posters from a URL, brief and brand assets, with considered Chinese/Latin typography, AI-generated visual assets, deterministic QR codes and final-image verification. Use for conference, workshop, launch, exhibition and registration promotion. Excludes academic research posters, slide decks, website implementation, logo creation alone, generic image generation and QR generation alone.
 metadata:
   author: 向阳乔木
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Qiaomu Poster
 
 把真实活动信息变成可报名、可分享、可继续编辑的商业海报。默认中文；按用户语言与渠道调整。目标是清楚、吸引人、有品牌个性的成品，不能把自动检查通过等同于审美认可或转化提升。
+
+## 头像快速入口（GEO 大会）
+
+用户在此技能上下文里只发头像、说“再做一张/用我的头像做大会海报”，直接走[头像工作流](references/avatar-workflow.md)。GEO 活动信息取 `presets/geo-2026.json`，头像是唯一必需用户输入；不要把日期、酒店、价格、二维码重新变成问卷。名字未知就不写，只标“邀你参加”，不猜嘉宾或主办身份。
+
+Agent 先看头像、回读预设官网核对当前活动和用户覆盖项，再执行：
+
+```bash
+python3 scripts/run.py avatar /path/avatar.png --output /project/my-geo-poster
+```
+
+脚本保存原图、真实 QR、本地字体、会议信息和可编辑初稿。它不是最终设计器：Agent 仍须根据头像构思、必要时生图/去底、精排并验收。三个布局是构图起点，不是批量换头像的终稿模板。默认输出 2160×3240 PNG、HTML、素材、画廊和 ZIP；直接完成制作，不只交初稿或提示词。
+
+以活动所在地 `Asia/Shanghai` 判断是否过期；2026-11-22 后不继续输出该届报名海报。先读最新官网，能确定下一届则写新的项目 `event.json`；不能确定时才问一次活动信息。明确复刻旧活动时用 `--archive`，成图标“历史活动”，CTA 改“扫码查看活动资料”。不为满足头像单输入而编造未来日期。非 GEO 活动仍走下面通用入口。
 
 ## 开工
 

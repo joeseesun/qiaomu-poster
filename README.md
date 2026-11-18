@@ -1,12 +1,28 @@
 # 乔木商业海报 · Qiaomu Poster
 
-**给一个网址、一份活动信息或一个 Logo，做出信息准确、品牌鲜明、可以直接扫码报名的商业海报。**
+**发来一张头像，就能制作你的 GEO 大会专属邀请海报。会议资料、文字排版和报名二维码由 agent 完成。**
 
 从读取活动资料、构思主视觉，到精确排字、生成二维码、逐张看图、导出高清图与可编辑源文件。支持单张创作，也支持每家媒体独立构图的联名系列。
 
 ![18 家媒体专属海报案例](examples/geo-2026/overview.png)
 
 [查看全部 18 张高清案例](examples/README.md) · [设计方法](references/design-method.md) · [生图工作流](references/image-workflow.md) · [验收报告](examples/geo-2026/audit-report.json)
+
+## v1.1：只给头像即可开始
+
+安装后上传头像，对 agent 说：
+
+> 用这个头像做一张 GEO 大会海报。
+
+也可以直接调用 `$qiaomu-poster` 并附图。无需重复输入日期、酒店、票价或报名链接；名字和风格可选。默认不猜你的身份，不添加嘉宾名单，不上传头像。
+
+Agent 会读取大会预设并回读官网，按头像构思、保留原图或制作衍生主视觉、精排中文和英文标题，最后交付 **2160×3240 PNG + 可编辑 HTML + 素材与二维码 + ZIP**。三种结构起点只是草稿，agent 必须继续精修和实际看图。
+
+![头像入口实际成品](examples/avatar-workflow/preview.png)
+
+[高清图与源文件](examples/avatar-workflow/README.md) · [头像流程](references/avatar-workflow.md) · [新入口验证](reports/avatar-evidence.json)
+
+当前预设是 **2026 年 11 月 21–22 日深圳 GEO 大会，通票 ¥399**；酒店由本项目用户指定为维纳斯皇家酒店（深圳国际会展中心京基百纳店）。官网目前仅提示酒店报名后群内通知，二者来源分别保留。每次新任务要回读官网，结束后会停止沿用旧届报名信息；仅在明确复刻时生成带“历史活动”标记的版本。[预设与来源](presets/geo-2026.json)
 
 ## 新增三张品牌案例
 
@@ -16,7 +32,7 @@
 
 [黑白汇聚高清图](examples/geo-three-brands/01.png) · [WaytoAGI 高清图](examples/geo-three-brands/02.png) · [YouMind 高清图](examples/geo-three-brands/03.png) · [下载三张高清图与源文件](examples/geo-three-brands/three-brand-posters-and-source.zip)
 
-原18张案例保留，本次新增3张，共21张。新增案例的全尺寸/手机缩图二维码、必需文案、标题分组和文字边界均通过检查。[新增案例说明](examples/geo-three-brands/README.md)
+原18张及后续3张品牌案例保留，共21张历史案例；v1.1另附1张头像入口验收案例。新增案例的全尺寸/手机缩图二维码、必需文案、标题分组和文字边界均通过检查。[新增案例说明](examples/geo-three-brands/README.md)
 
 ## 一行安装
 
@@ -53,7 +69,7 @@ npx skills add joeseesun/qiaomu-poster --skill qiaomu-poster
 
 GEO 大会系列包含 **18 张 2160 × 3240 PNG**、对应 HTML、本地 Logo/衍生图、字体与二维码。现有真实案例经过标题间距、头像背景、角色截断、图文遮挡等多轮修改。
 
-本技能运行时重新渲染了全部 18 张：必需文本、图片加载、文字越界、标题分组及全尺寸/540px 宽缩图二维码检查均通过。另有 10 个自动回归测试覆盖正常输出和错误路径。技术结果不能证明用户最终审美认可、报名转化提升或印刷认证。[证据与边界](reports/output-evidence.json)
+本技能运行时重新渲染了全部 18 张：必需文本、图片加载、文字越界、标题分组及全尺寸/540px 宽缩图二维码检查均通过。v1.0 有 10 个自动回归测试覆盖正常输出和错误路径。技术结果不能证明用户最终审美认可、报名转化提升或印刷认证。[证据与边界](reports/output-evidence.json)
 
 示例中的会议事实与二维码仅属于原活动，新任务必须重新读取、核对和生成。案例 Logo、头像及角色权利归各自权利人，不能因代码开源而获得通用商用授权。[案例许可说明](examples/NOTICE.md)
 
@@ -68,6 +84,8 @@ GEO 大会系列包含 **18 张 2160 × 3240 PNG**、对应 HTML、本地 Logo/�
 ```bash
 python3 scripts/setup.py --check
 python3 scripts/setup.py
+python3 scripts/run.py avatar /path/avatar.png --output /project/my-geo-poster
+# 通用活动入口也保留：
 python3 scripts/run.py qr https://example.org/register --output /project/assets/qr.png
 python3 scripts/run.py render /project/posters.json
 python3 scripts/run.py audit /project/posters.json
@@ -84,6 +102,12 @@ python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
 ## Troubleshooting
+
+**我只提供头像，为什么 agent 还会询问信息？** 正常有效的 GEO 预设不需要再填。只有活动已过期、官网显示冲突或没有明确活动上下文时，才补问真正缺少的信息。
+
+**出现 Event has ended 怎么办？** 让 agent 从官网确认最新活动并写项目专用 event JSON；不要把旧票价和日期直接改成年份。只有明确历史复刻才使用 `--archive`。
+
+**出现 Output already exists 怎么办？** 换一个新输出目录；此保护避免覆盖已有海报。修改已有稿应直接编辑它的 HTML，再渲染和验收。
 
 **只有网址可以吗？** 可以。先读取信息并提取核心事实；若来源没有日期、票价或报名入口，不能编造。Logo 可由用户提供或从已授权来源读取。
 

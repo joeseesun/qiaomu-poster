@@ -1,7 +1,7 @@
 interface:
   display_name: "乔木商业海报"
-  short_description: "从网址、活动信息和Logo制作可报名的品牌专属海报"
-  default_prompt: "Use $qiaomu-poster to read my event source, preserve facts, design a distinctive commercial poster with editable type and a verified registration QR, inspect the real render, and deliver PNG plus source."
+  short_description: "只给头像，生成GEO大会个性海报；也支持网址、活动信息和Logo"
+  default_prompt: "Use $qiaomu-poster with my attached avatar to create a personalized GEO conference poster using the current event preset; verify event freshness, then preserve facts, design a distinctive commercial poster with editable type and a verified registration QR, inspect the real render, and deliver PNG plus source."
 compatibility:
   canonical_format: "agent-skills"
   adapter_targets: [openai, claude, generic, agent-skills-compatible]

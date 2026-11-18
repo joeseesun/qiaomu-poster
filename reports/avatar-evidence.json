@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-18",
+  "version": "1.1.0",
+  "ok": true,
+  "tests": {
+    "total": 16,
+    "passed": 16,
+    "new_avatar_cases": 6
+  },
+  "triggers": {
+    "total": 25,
+    "passed": 25,
+    "kind": "deterministic heuristic, not semantic model eval"
+  },
+  "renders": {
+    "same_input_layouts": [
+      "spotlight",
+      "editorial",
+      "signature"
+    ],
+    "comparison": "avatar-layout-comparison.png",
+    "all_three_audits_passed": true,
+    "finished_case": "../examples/avatar-workflow",
+    "final_qr_sizes": [
+      "full",
+      "540px"
+    ],
+    "original_bytes_preserved": true,
+    "final_visual_review": [
+      "full image",
+      "phone preview",
+      "character/footer edge",
+      "title grouping"
+    ]
+  },
+  "prototype_decision": "For the symmetric black symbol choose spotlight. Editorial reserves left copy for a figure; signature suits wide wordmarks, not square symbols. Figure final uses editorial with source-specific scale and paper palette.",
+  "no_new_image_generation_this_release": true,
+  "limitations": [
+    "Source avatar is an existing public transparent character case",
+    "No blind human preference evaluation",
+    "No conversion measurement",
+    "CLI alone produces draft; agent must finish and inspect",
+    "No unassisted end-to-end model benchmark"
+  ]
+}
