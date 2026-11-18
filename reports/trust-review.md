@@ -9,3 +9,6 @@
 - Cases were authorized by the user for publication. Third-party marks/avatars remain outside the MIT grant; Noto font OFL licenses accompany subsets.
 - Technical audit checks text, geometry, file freshness and exact decoded URL. It does not certify source truth, aesthetic quality, brand rights, print production or conversion lift.
 - Release validation is run on a clean tracked checkout; `.deps` is linked only for tests, so vendored dependency source is excluded from the package secret scan.
+
+## v1.1 avatar entry review · 2026-11-18
+Only local static PNG/JPEG/WebP inputs; HTML fields escaped, avatar copied under a fixed filename, new project directory required, outputs forbidden inside installed skill. No provider call or upload by the bootstrap. Default uses Asia/Shanghai expiry; historical mode marks output and changes CTA. Preset hotel is an explicit user override; official source refresh remains the agent responsibility. Runtime input and overwrite failures tested.

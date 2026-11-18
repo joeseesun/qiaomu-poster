@@ -1,0 +1,20 @@
+{
+  "status": "reviewed-local-delivery",
+  "style": "editorial",
+  "input_sha256": "0aa26780f61549d288d038ab7ee6a7a16ad345265d60adbb84471ba1fe0e3bb9",
+  "avatar_analysis": {
+    "width": 1254,
+    "height": 1254,
+    "background": "#f4f2e9",
+    "ink": "#17251d",
+    "format": "PNG",
+    "style": "spotlight",
+    "background_is_corner_estimate": true
+  },
+  "archive": false,
+  "source_check": "Agent must reread the official source for each new live task",
+  "no_identity_inference": true,
+  "original_preserved": true,
+  "visual_review": "Full render and 540px view inspected; character enlarged and aligned to the footer; title/QR facts passed",
+  "limits": "No human preference test or conversion measurement"
+}

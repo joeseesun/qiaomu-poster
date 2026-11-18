@@ -29,7 +29,10 @@
       "网址",
       "event",
       "brand",
-      "commercial"
+      "commercial",
+      "头像",
+      "GEO",
+      "avatar"
     ]
   },
   "negative_patterns": [
@@ -38,7 +41,9 @@
     "只设计logo",
     "只做网页",
     "只写文案",
-    "academic research poster"
+    "academic research poster",
+    "不要海报",
+    "识别这张头像是谁"
   ],
   "should_trigger": [
     "用这个网址设计活动报名海报",
@@ -48,7 +53,10 @@
     "Create commercial event posters from this URL and logo",
     "Design a launch poster with ticket price and registration code",
     "重排宣传海报，保留时间地点和二维码",
-    "做一张展览海报"
+    "做一张展览海报",
+    "用我的头像生成 GEO 大会个性海报",
+    "只给一个头像，做一张GEO报名海报",
+    "Create a personalized GEO poster from my avatar"
   ],
   "should_not_trigger": [
     "只生成二维码",
@@ -58,7 +66,9 @@
     "帮我总结这个网址",
     "做一个幻灯片",
     "生成一张猫咪照片",
-    "查活动天气"
+    "查活动天气",
+    "只修改头像背景，不要海报",
+    "识别这张头像是谁"
   ],
   "near_neighbor": [
     "做学术研究海报",

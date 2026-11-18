@@ -8,8 +8,8 @@
   ],
   "missing_description_concepts": [],
   "summary": {
-    "total": 20,
-    "passed": 20,
+    "total": 25,
+    "passed": 25,
     "false_positive": 0,
     "false_negative": 0,
     "pass_rate": 1.0
@@ -51,9 +51,10 @@
         "expected_trigger": true,
         "predicted_trigger": true,
         "passed": true,
-        "score": 0.667,
+        "score": 1.0,
         "matched_concepts": [
           "action",
+          "context",
           "poster"
         ],
         "negative_pattern": null
@@ -121,6 +122,48 @@
         "score": 0.667,
         "matched_concepts": [
           "action",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "用我的头像生成 GEO 大会个性海报",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "只给一个头像，做一张GEO报名海报",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "Create a personalized GEO poster from my avatar",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
           "poster"
         ],
         "negative_pattern": null
@@ -220,6 +263,32 @@
           "context"
         ],
         "negative_pattern": null
+      },
+      {
+        "prompt": "只修改头像背景，不要海报",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "context",
+          "poster"
+        ],
+        "negative_pattern": "不要海报"
+      },
+      {
+        "prompt": "识别这张头像是谁",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "context"
+        ],
+        "negative_pattern": "识别这张头像是谁"
       }
     ],
     "near_neighbor": [

@@ -1,15 +1,13 @@
-# qiaomu-poster v1.0.0 handoff
+# qiaomu-poster v1.1.0 handoff
 
-Updated 2026-10-27. Goal: URL/info/logo to precise, brand-specific commercial registration posters; full media counts, natural logo integration, considered Chinese/Latin type, exact final QR.
+Updated 2026-11-18. Upgraded existing canonical skill instead of creating a duplicate. User supplies an avatar; agent refreshes the configured GEO facts, creates a personalized poster and finishes local delivery. Public release requested.
 
-Canonical source: personal skill source directory, package `qiaomu-poster`. Other agent installations should link to it when managed locally. No independent personal-authoring copies.
+References studied: K2F flyer (single action and layered logistics, no K2F runtime adoption), OpenAI imagegen (identity invariants and transparency, no generated text/QR dependency), existing qiaomu-poster (original assets, mixed-script typography and final QR checks). See avatar-prior-art-research.md for individual source and metric boundaries.
 
-Implemented: lean SKILL workflow; design/image/failure references; isolated setup; QR/render/audit/gallery commands; 18 editable cases with source assets; 20 heuristic trigger cases; 10 real-browser regression tests; provenance/rights/evidence reports.
+Keep: exact facts/CTA and original identity. Adapt: event preset to an avatar-only conversational entry. Reject: questionnaire for already configured facts, inferred names/roles, expired invitations, fixed template as final output. Invent: date-aware avatar project bootstrap with immutable source, archive label/CTA, and a mandatory agent finish.
 
-Verified: 18/18 final exports audited; full and phone QR targets exact; all 10 regression tests pass. The title-gap case is seeded by the actual rejected first-pass layout, isolated in a small fixture. Review the report for limits.
+Design advantage: only avatar is required while the event is valid; three structure starters reduce setup without replacing visual judgment. Validated advantage: 16 runtime regression tests, 25 heuristic trigger cases, three real layout renders and one refined output, full/540px QR decoding. Hypothesis: lower user effort improves adoption; no comparative user or conversion study.
 
-Known constraint: bundled Chromium fails `decode()` for one 10000px JPG; the 18-case rerender used installed Google Chrome successfully. Use the documented browser override and do not suppress decode failures. System display fonts may differ across platforms.
+Artifact pointers: references/avatar-workflow.md, presets/geo-2026.json, scripts/avatar.py, examples/avatar-workflow, reports/avatar-evidence.json. CLI draft status is explicit. Missing evidence: independent human aesthetic evaluation and unattended provider-driven benchmark. Historical 18-case evidence is preserved separately.
 
-Publishing path: feature branch → reviewed PR → merge → GitHub Release v1.0.0 → isolated `npx skills` discovery/install verification. Release-stage evidence is attached to the GitHub Release; this preparation document does not itself prove remote publication.
-
-No final user aesthetic acceptance or conversion metrics are recorded. Follow-up quality feedback should become a specific failure case/reference update rather than a universal palette/layout rule.
+Publication contract: feature branch → PR checks → merge → versioned v1.1.0 Release → real isolated npx discovery/install. This source document does not itself establish remote publication; release evidence is attached after publication.

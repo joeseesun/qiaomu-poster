@@ -1,0 +1,57 @@
+{
+  "evidence_kind": "browser_rendered_and_decoded",
+  "ok": true,
+  "date": "2026-10-27",
+  "skill_version": "1.0.0",
+  "case_count": 18,
+  "export_dimensions": [
+    2160,
+    3240
+  ],
+  "checks": [
+    "browser font/image decode readiness",
+    "required and forbidden text",
+    "one CTA",
+    "title grouping and spacing",
+    "text within canvas",
+    "exact single QR at full and 540px width",
+    "HTML/PNG SHA256 freshness"
+  ],
+  "runtime": "Pinned Playwright with installed macOS Google Chrome via POSTER_BROWSER_EXECUTABLE; default Chromium fails decode on case 04 original 10000x10000 JPG",
+  "reports": [
+    "../examples/geo-2026/render-report.json",
+    "../examples/geo-2026/audit-report.json"
+  ],
+  "regression": {
+    "command": "python3 -m unittest discover -s tests -p 'test_*.py'",
+    "total": 10,
+    "passed": 10,
+    "covers": [
+      "normal rendered image",
+      "mixed title gap",
+      "real ungrouped title failure",
+      "duplicate CTA",
+      "missing price",
+      "outside canvas",
+      "wrong QR destination",
+      "stale HTML",
+      "path escape",
+      "series topology repetition"
+    ]
+  },
+  "trigger_eval": {
+    "kind": "deterministic heuristic",
+    "total": 20,
+    "passed": 20,
+    "not_semantic_model_eval": true
+  },
+  "human_blind_review": null,
+  "limits": [
+    "No final per-poster user acceptance recorded",
+    "No controlled aesthetic comparison",
+    "No measured conversion lift",
+    "No print certification",
+    "Automatic checks cannot detect every visual overlap or validate third-party facts",
+    "External asset changes require explicit rerender; freshness hashes cover HTML and PNG only"
+  ]
+}

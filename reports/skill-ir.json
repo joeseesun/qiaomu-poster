@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0.0-qiaomu-lite",
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-11-18",
   "package": {
     "name": "qiaomu-poster",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "owner": "向阳乔木",
     "maturity_tier": "governed",
     "lifecycle_stage": null,
@@ -11,8 +11,8 @@
     "upstream_sync": {}
   },
   "intent": {
-    "description": "根据网址、活动信息、报名链接和 logo，设计、生成、修改商业宣传海报、活动报名海报、媒体联名邀请海报；支持逐品牌独立构图的批量海报。Create or refine commercial event posters from a URL, brief and brand assets, with considered Chinese/Latin typography, AI-generated visual assets, deterministic QR codes and final-image verification. Use for conference, workshop, launch, exhibition and registration promotion. Excludes academic research posters, slide decks, website implementation, logo creation alone, generic image generation and QR generation alone.\n",
-    "job_to_be_done": "Turn URLs, event facts and brand assets into distinct, editable commercial registration posters with verified final QR codes.",
+    "description": "只输入头像即可生成 GEO 大会个性化邀请海报；也支持根据网址、活动信息、报名链接和 logo，设计、生成、修改商业宣传海报、活动报名海报、媒体联名邀请海报；支持逐品牌独立构图的批量海报。Create or refine commercial event posters from a URL, brief and brand assets, with considered Chinese/Latin typography, AI-generated visual assets, deterministic QR codes and final-image verification. Use for conference, workshop, launch, exhibition and registration promotion. Excludes academic research posters, slide decks, website implementation, logo creation alone, generic image generation and QR generation alone.\n",
+    "job_to_be_done": "One avatar to a personalized GEO conference poster using a date-aware event preset, plus the existing general URL/info/logo workflow.",
     "target_users": [
       "event organizers",
       "media partners",
@@ -20,6 +20,7 @@
       "creators"
     ],
     "inputs": [
+      "avatar alone for the configured GEO conference",
       "event URL or brief",
       "logos or portraits",
       "registration URL",
@@ -48,7 +49,10 @@
       "Create commercial event posters from this URL and logo",
       "Design a launch poster with ticket price and registration code",
       "重排宣传海报，保留时间地点和二维码",
-      "做一张展览海报"
+      "做一张展览海报",
+      "用我的头像生成 GEO 大会个性海报",
+      "只给一个头像，做一张GEO报名海报",
+      "Create a personalized GEO poster from my avatar"
     ],
     "should_not_trigger": [
       "只生成二维码",
@@ -58,7 +62,9 @@
       "帮我总结这个网址",
       "做一个幻灯片",
       "生成一张猫咪照片",
-      "查活动天气"
+      "查活动天气",
+      "只修改头像背景，不要海报",
+      "识别这张头像是谁"
     ],
     "near_neighbor": [
       "做学术研究海报",
@@ -75,6 +81,7 @@
   },
   "resources": {
     "references": [
+      "references/avatar-workflow.md",
       "references/design-method.md",
       "references/failure-cases.md",
       "references/image-workflow.md",
@@ -82,6 +89,7 @@
       "references/sources.md"
     ],
     "scripts": [
+      "scripts/avatar.py",
       "scripts/poster.py",
       "scripts/run.py",
       "scripts/setup.py"
@@ -91,6 +99,10 @@
       "evals/trigger_cases.json"
     ],
     "reports": [
+      "reports/avatar-evidence.json",
+      "reports/avatar-layout-comparison.png",
+      "reports/avatar-prior-art-candidates.json",
+      "reports/avatar-prior-art-research.md",
       "reports/creation-handoff.md",
       "reports/output-evidence.json",
       "reports/prior-art-candidates.json",
@@ -98,7 +110,8 @@
       "reports/skill-ir.json",
       "reports/source-review.json",
       "reports/trigger-eval.json",
-      "reports/trust-review.md"
+      "reports/trust-review.md",
+      "reports/v1.0-output-evidence.json"
     ]
   },
   "portability": {
